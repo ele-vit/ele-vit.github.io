@@ -1,0 +1,446 @@
+body {
+  min-width: 100%;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    /* scroll-behavior: smooth; */
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+    /* scroll-behavior: smooth; */
+}
+
+/* ALL HEADER */
+.content-header {
+  min-height: 100vh;
+  background-image: url('../img/Julios_Césares.jpeg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+
+.container-header{
+  padding: 20% 30% 10% 30%;
+  text-align: justify;
+  text-align-last: center;
+}
+
+h1 {
+  color: #30ff3d;
+  text-shadow: 5px 5px 5px #000;
+}
+
+.bg_profile {
+  float:inherit;
+  width: 206px;
+  height: 206px;
+  position: relative;
+  background: linear-gradient(#0f1317 0 0) padding-box, linear-gradient(to right, #00ff34, #6e00f2) border-box;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 15px 15px 40px #00000082, -10px -10px 25px 0px #0000004f;
+}
+
+.profile{
+  height: 200px;
+  width: 200px;
+  background-image: url('../img/me.jpeg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.texts{
+  margin-bottom: 5%;
+  text-shadow: 1px 10px 8px #000;
+  font-size: 25px !important;
+  letter-spacing: 0.0em;
+}
+
+.em_texts{
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 25px !important;
+}
+
+.social {
+  margin-bottom: 5%;
+}
+
+.hyperlink {
+  margin-right: 5% !important;
+  text-decoration: none;
+  font-size: 34px !important;
+  color: white;
+  background: radial-gradient(circle, rgba(0, 230, 255, 0.6) 20%, rgba(0, 140, 147, 0.78) 30%, rgba(5, 57, 70, 0) 100%),
+    linear-gradient( to right, rgb(0, 255, 219)20%, rgb(0, 133, 147)30%, rgb(0, 37, 60)50% );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.hyperlink:hover {
+  color: white;
+  background-size: 0 3px, 100% 3px;
+}
+
+.fa {
+  margin-right: 5% !important;
+}
+
+/* SECTIONS */
+.content-section {
+  min-height: 100vh;
+}
+
+
+/*  SECTION ONE */
+.container-section{
+  padding: 10% 0% 10% 0%;
+  text-align: justify;
+}
+
+#section-1 {
+  border-top: 2px solid;
+  border-image: linear-gradient(to left, #000 10%, #035146 50%, #000 100%) 1;
+  background-image: url('../img/Calígula.jpeg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: #fff !important;
+}
+
+
+div .slider{
+  width: 85%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: linear-gradient(#000 0 0) padding-box, linear-gradient(140deg, #59f8ff, #ae4eff) border-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  display: inline-block;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+    height: 100%;
+    border-radius: 8px;
+    padding-left: 0px !important;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+.slider, .slider ul, .slider img{
+    height: 100vh;
+}
+}
+
+#section-2 {
+  border-top: 2px solid;
+  border-image: linear-gradient(to left, #000 10%, #035146 50%, #000 100%) 1;
+  background-image: url('../img/Marcus_Antonius_Primus.jpeg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: #fff !important;
+}
+.product-box {
+  border-radius: 5px;
+  margin: 0% 0% 0% 5%;
+  font: 13px/23px "Raleway", Arial, sans-serif;
+  color: #000;
+  padding: 40px 0;
+
+}
+
+.container-project {
+  float: left;
+  margin: 3%;
+  width: 308px;
+  height: 465px;
+  background: white;
+  position: relative;
+  background: linear-gradient(#0f1317 0 0) padding-box, linear-gradient(to right, #00c3ff, #d400f2) border-box;
+  color: #09dcff;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+  box-shadow: 15px 15px 40px #00474a2e, -10px -10px 25px 0px #00459d63;
+  filter: grayscale(50%);
+}
+
+.container-project:hover {
+  filter: grayscale(0%);
+  opacity: revert;
+}
+
+.container-project > img {
+  border-radius: 12px 8px 0px 0px;
+  height: 300px;
+  width: 300px;
+}
+
+
+.information {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.name {
+  margin-top: 20%;
+  font-size: 32px;
+}
+
+
+#section-3 {
+  border-top: 2px solid;
+  border-image: linear-gradient(to left, #000 10%, #035146 50%, #000 100%) 1;
+  background-image: url('../img/David_Michelangelo.jpeg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: #fff !important;
+}
+
+.element {
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  align-items: center;
+  background-color: #ffffff0a;
+  border: 1px solid transparent;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.53), -8px -8px 12px 0 rgba(0, 0, 0, 0.44);
+  border-radius: 20px;
+  display: grid;
+  height: 130px;
+  width: 130px;
+  justify-content: center;
+}
+
+.element > img {
+  height: 70px;
+  width: 70px;
+}
+
+.element > .em_texts{
+  font-size: 18px !important;
+}
+
+ .skill-section{
+   margin-top: 7%;
+ }
+
+#section-4 {
+  border-top: 2px solid;
+  border-image: linear-gradient(to left, #000 10%, #035146 50%, #000 100%) 1;
+  background-image: url('../img/Emperador_Augustus.jpeg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: #fff !important;
+}
+
+
+input {
+  border: 1px solid rgb(3, 81, 70);
+  border-radius: 8px;
+  height: 50px;
+  width: 80%;
+  background-color: #000c;
+  padding: 1%;
+  color: rgb(0, 189, 162);
+  font-family: monospace;
+  font-size: 22px;
+  margin-right: 2%;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: rgb(3, 81, 70);
+    box-shadow: 0 0 10px rgb(3, 81, 70);
+ }
+
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #00ffdba3;
+   opacity: 1; /* Firefox */
+ }
+
+ :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #00ffdba3;
+   opacity: 1;
+ }
+
+ ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #00ffdba3;
+   opacity: 1;
+ }
+
+
+ button {
+  height: 50px;
+  width: 14%;
+  border: 0px solid;
+  border-radius: 8px;
+  background: linear-gradient(to right, #010311 10%, #035146 70%);
+  font-family: monospace;
+  font-size: 22px;
+  color: #fff;
+}
+
+button:hover {
+  background: linear-gradient(to right, #000 10%, #00594d 70%);
+  border: 1px solid #218861;
+}
+
+.emperador{
+  float: right;
+}
+
+@media (min-width: 950px) and (max-width:1100px) {
+      h1 {font-size:67px !important;}
+      .texts { font-size: 45px !important;}
+      .em_texts   {font-size: 45px !important; }
+      .content-header {
+        min-height: 100vh;
+        background-image: url('../img/mobile/Julios_Césares.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .container-header{
+        padding: 95% 10% 5% 10%;
+        text-align: justify;
+        text-align-last: center;
+      }
+
+      .bg_profile {
+        width: 406px;
+        height: 406px;
+      }
+
+      .profile{
+        height: 400px;
+        width: 400px;
+      }
+
+
+      .hyperlink {
+        padding: 10px 15px;
+        font-size: 40px !important;
+        margin-right: 3% !important;
+      }
+      .hyperlink:hover {
+        font-size: 35px !important;
+        margin-right: 3% !important;
+      }
+
+      #section-1 {
+        min-height: 100vh;
+        background-image: url('../img/mobile/Calígula.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      #section-2 {
+        min-height: 100vh;
+        background-image: url('../img/mobile/Marcus_Antonius_Primus.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      #section-3 {
+        min-height: 100vh;
+        background-image: url('../img/mobile/David_Michelangelo.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      #section-4 {
+        min-height: 100vh;
+        background-image: url('../img/mobile/Emperador_Augustus.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      input {
+        height: 80px;
+        width: 100%;
+      }
+      button {
+        height: 80px;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 20%;
+      }
+
+      .col-9 {
+        width: 100% !important;
+      }
+
+      .col-6{
+        margin-top: 15%;
+        width: 100% !important;
+      }
+
+      .container-project {
+        width: 260px !important;
+      }
+      .container-project > img {
+        width: 250px !important;
+      }
+
+      .element {
+        height: 210px;
+        width: 210px;
+      }
+
+      .element > img {
+        height: 110px;
+        width: 110px;
+      }
+      .element .em_texts{
+        font-size: 30px !important;
+      }
+
+
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 35px;
+  bottom: 35px;
+  z-index: 996;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+.back-to-top i {
+  font-size: 45px;
+  color: #fff;
+  line-height: 0;
+
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/sweetAlert/sweetalert2.min.css">
+    <title>ele-vit</title>
+  </head>
+  <body>
+
+    <header class="content-header text-white">
+
+    <div class="container-header scroll-y-1">
+      <h1 class="font-monospace fw-bold display-4">Elevit Pachón</h1>
+
+                <div class="row">
+                          <div class="col-12">
+                                  <div class="bg_profile">
+                                    <div class="profile"></div>
+                                  </div>
+                                  <p class="lead texts">I'm <span class="typed"></span></p>
+                          </div>
+                </div>
+                <div class="row social">
+                          <div class="col-12">
+
+                                      <a href="https://twitter.com/elev_it" target="_blank" class="hyperlink fa fa-twitter"><i class="bx bxl-twitter"></i></a>
+                                      <a href="https://www.instagram.com/elev.it/" target="_blank" class="hyperlink fa fa-instagram"><i class="bx bxl-instagram"></i></a>
+                                      <a href="https://www.linkedin.com/in/elevit-p-a484bb208/" target="_blank" class="hyperlink fa fa-linkedin"><i class="bx bxl-linkedin"></i></a>
+                          </div>
+                </div>
+    </div>
+
+    </header>
+
+    <section id="section-1" class="content-section text-white">
+
+          <div class="container container-section">
+                      <div class="row">
+                              <div class="col-12">
+                                <h1 class="font-monospace fw-bold display-4 scroll-y-3">About Me</h1>
+                              </div>
+                                <div class="col-6">
+
+                                        <p class="lead texts scroll-y-1">I'm a systems engineering student in my last semester, I'm a BackEnd developer and a cyber security enthusiast, I like to paint and listen to music... Especially classical violin, trash metal, heavy metal and more.
+                                        <br><br>
+                                        I like the cyberpunk culture because information about the latest technological advances, philosophy and the occasional malware is shared.
+                                        </p>
+                                </div>
+                                <div class="col-6" >
+                                                      <div class="slider scroll-y-2">
+                                                              <ul>
+                                                                <li>
+                                                                    <img src="assets/img/about_me/violin.jpg">
+                                                                </li>
+                                                                <li>
+                                                                    <img src="assets/img/about_me/trash_metal.gif">
+                                                                </li>
+                                                                <li>
+                                                                    <img src="assets/img/about_me/cyberpunk.jpg">
+                                                                </li>
+                                                                <li>
+                                                                    <img src="assets/img/about_me/malware.jpg">
+                                                                </li>
+                                                              </ul>
+                                                      </div>
+
+                                </div>
+                      </div>
+
+          </div>
+
+    </section>
+
+
+    <section id="section-2" class="content-section bg-secundary text-white">
+      <div class="container container-section">
+                  <div class="row">
+                            <div class="col-12">
+                                    <h1 class="font-monospace fw-bold display-4 scroll-y-2 scroll-x-2">Projects</h1>
+                                    <p class="lead texts scroll-y-1">These are some of the projects that I have allowed myself to develop as a way
+                                       of spending time and with the aim of acquiring new knowledge in software development, some of
+                                        these projects They are focused on different sectors, computer security, data analysis and others.
+                                    </p>
+                            </div>
+                            <div class="col-12 container-product">
+                              <div class="product-box">
+                                <div class="container-project scroll-y-1 mc" data-pro="mc" onClick="sweet(this)">
+                                  <img src="assets/img/projects/mc.jpg" />
+                                  <div class="information">
+                                    <div class="name">Moodle-Cry </div>
+                                    <input class="text1" type="hidden" value="<p style='text-align: justify; font-size: 25px;'>It is a script designed to make brute force attacks on Moodle platforms,
+                                      where the attacker is allowed to make requests for the authentication of a user through a tor circuit, largely guaranteeing
+                                      their anonymity. <br><br> The use of this tool is as simple as assigning a user and a text document with possible passwords,
+                                      this file of possible passwords could be generated with another program called <a  class='hyperlink'  target='_blank'
+                                      href='https://github.com/Mebus/cupp'>CUUP</a></p><br><p style='text-align: justify; font-size: 25px;'>Project: <a class='hyperlink' target='_blank' href='https://github.com/ele-vit/moodless-cry'>Moodle-Cry</a></p>">
+                                  </div>
+                                </div>
+                                  <div class="col-3 container-project scroll-y-3 spider" data-pro="spider" onClick="sweet(this)">
+                                    <img src="assets/img/projects/spider.png" />
+                                    <div class="information">
+                                      <div class="name">Web Scraping</div>
+                                      <input class="text1" type="hidden" value="<p style='text-align: justify; font-size: 25px;'>This project was designed as a base to create a rest api that allows consuming
+                                        resources and extracting data from external sources... That is, an application that allows us to extract information from websites
+                                        and therefore categorize it, order it and possibly save it. </p><br><p style='text-align: justify; font-size: 25px;'>Project: <a   class='hyperlink'   target='_blank' href='https://github.com/ele-vit/spider-FBI'>Web Scraping</a></p>">
+                                    </div>
+                                  </div>
+                                    <div class="container-project scroll-y-2 face" data-pro="face" onClick="sweet(this)">
+                                      <img src="assets/img/projects/face.jpg" />
+                                      <div class="information">
+                                        <div class="name">Face Regonition</div>
+                                        <input class="text1" type="hidden" value="<p style='text-align: justify; font-size: 25px;'>This project was designed as a base to the facial recognition
+                                           of several people in real time, the algorithm distinguishes and identifies by name the people who were previously added with their
+                                            name and face, in turn those who are not in the records are identified as 'NOT DATA' in red.</p><br><p style='text-align: justify; font-size: 25px;'>Project: <a   class='hyperlink'
+                                              target='_blank' href='https://github.com/ele-vit/face_recognition'>Face Regonition</a></p>">
+                                      </div>
+                                    </div>
+                                    </div>
+                            </div>
+                  </div>
+      </div>
+    </section>
+
+    <section id="section-3" class="content-section bg-success text-white">
+      <div class="container container-section">
+                  <div class="row">
+                            <div class="about_me col-12">
+                                    <h1 class="font-monospace fw-bold display-4 scroll-x-2">Skills</h1>
+                            </div>
+                            <div class="col-12 container-product">
+                                    <div class="row skill-section">
+                                      <h2 class="scroll-x-2">Programming</h2>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/python.png" />
+                                        <p class="em_texts"><em>Python</em></p>
+                                      </div>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/angular.png" />
+                                        <p class="em_texts"><em>Angular</em></p>
+                                      </div>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/js.png" />
+                                        <p class="em_texts"><em>Javascript</em></p>
+                                      </div>
+                                      <div class="element scroll-x-1">
+                                        <img src="assets/img/skills/html.png" />
+                                        <p class="em_texts"><em>Html</em></p>
+                                      </div>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/css3.png" />
+                                        <p class="em_texts"><em>Css</em></p>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="row skill-section">
+                                      <h2 class="scroll-x-2">Frameworks</h2>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/django.png" />
+                                        <p class="em_texts"><em>Django</em></p>
+                                      </div>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/flask.png" />
+                                        <p class="em_texts"><em>Flask</em></p>
+                                      </div>
+                                      <div class="element scroll-x-1">
+                                        <img src="assets/img/skills/scrapy.png" />
+                                        <p class="em_texts"><em>Scrapy</em></p>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="row skill-section">
+                                      <h2 class="scroll-x-2">Tools</h2>
+                                      <div class="element scroll-x-1">
+                                        <img src="assets/img/skills/atom.png" />
+                                        <p class="em_texts"><em>Atom</em></p>
+                                      </div>
+                                      <div class="element scroll-x-1">
+                                        <img src="assets/img/skills/git.png" />
+                                        <p class="em_texts"><em>Git</em></p>
+                                      </div>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/linux.png" />
+                                        <p class="em_texts"><em>Linux</em></p>
+                                      </div>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/azure.png" />
+                                        <p class="em_texts"><em>Azure</em></p>
+                                      </div>
+                                      <div class="element scroll-x-1">
+                                        <img src="assets/img/skills/docker.png" />
+                                        <p class="em_texts"><em>Docker</em></p>
+                                      </div>
+                                      <div class="element scroll-x-1">
+                                        <img src="assets/img/skills/podman.png" />
+                                        <p class="em_texts"><em>Podman</em></p>
+                                      </div>
+                                      <div class="element scroll-x-2">
+                                        <img src="assets/img/skills/postman.png" />
+                                        <p class="em_texts"><em>Postman</em></p>
+                                      </div>
+                                    </div>
+
+                            </div>
+                  </div>
+      </div>
+    </section>
+    <section id="section-4" class="content-section bg-warning text-white">
+
+      <div class="container container-section">
+                  <div class="row">
+                            <div class="col-12 mb-5">
+                                    <h1 class="font-monospace fw-bold display-4 scroll-x-2">Skills</h1>
+                            </div>
+                            <div class="col-9  mb-5">
+                                  <input type="text" placeholder="Write your subject for the e-mail." class="greeting" name="greeting" value="">
+                                  <button id="send_mail" type="button" name="button">send</button>
+                            </div>
+
+                            <div class="col-9 mt-5 mb-5">
+                                  <input type="text" placeholder="Greeting me 😎" class="msg" name="greeting" value="">
+                                  <button id="send_wp" type="button" name="button">send</button>
+                            </div>
+                            <div class="col-9 mt-5">
+                              <p class="lead texts"><em>“I found Rome a city of bricks and left it a city of marble.”</em>
+                                <br><br>
+                              <em class="emperador">Caesar Augustus</em></p>
+                            </div>
+                  </div>
+      </div>
+
+    </section>
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa fa-arrow-up"></i></a>
+
+  </body>
+
+<script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/typed.js/typed.min.js"></script>
+  <script src="assets/js/sweetAlert/sweetalert2.all.min.js"></script>
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/boxLoader/js/jquery.boxloader.min.js"></script>
+<script src="assets/js/index.js"></script>
+</html>
